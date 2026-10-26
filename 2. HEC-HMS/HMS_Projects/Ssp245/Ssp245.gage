@@ -1,0 +1,517 @@
+Gage Manager: Ssp245
+     Version: 4.10
+     Filepath Separator: \
+End:
+
+Gage: Aizawl
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Aizawl/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Haulawng
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Haulawng/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Hnahthial
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Hnahthial/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Kawrtethawveng
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Kawrtethawveng/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Kolasib
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Kolasib/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Lunglei
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Lunglei/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Mamit
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Mamit/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Neihbawi
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Neihbawi/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Serchhip
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Serchhip/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Sialsuk
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Sialsuk/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Thingdawl
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Thingdawl/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Zawlnuam
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51:36
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Precipitation
+     Precipitation Type: Incremental
+     Units: MM
+     Data Type: PER-CUM
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //Zawlnuam/PRECIP-INC//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB1
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB1/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB10
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB10/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB11
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB11/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB12
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB12/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB2
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB2/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB3
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB3/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB4
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB4/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB5
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB5/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB6
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB6/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB7
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB7/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB8
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB8/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: SUB9
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Temperature
+     Units: c
+     Data Type: PER-AVER
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Ssp245.dss
+       DSS Pathname: //SUB9/TEMPERATURE//1DAY/GAGE/
+       Start Time: 2 January 2015, 00:00
+       End Time: 31 December 2099, 00:00
+     End Variant: Variant-1
+End:
+
+Gage: Bairabi
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 13:08:07
+     Reference Height Units: Meters
+     Reference Height: 9.9999
+     Gage Type: Flow
+     Units: cms
+     Data Type: INST-VAL
+     Data Source Type: Manual Entry
+     Variant: Variant-1
+       Last Variant Modified Date: 30 December 2025
+       Last Variant Modified Time: 12:51:36
+       Default Variant: Yes
+       DSS File Name: Observed_Historical.dss
+       DSS Pathname: //Bairabi/FLOW//1DAY/GAGE/
+       Start Time: 1 January 2018, 00:00
+       End Time: 31 December 2021, 00:00
+     End Variant: Variant-1
+End:
+

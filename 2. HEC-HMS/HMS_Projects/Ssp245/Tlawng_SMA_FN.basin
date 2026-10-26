@@ -1,0 +1,1109 @@
+Basin: Tlawng_SMA_FN
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:41:43
+     Version: 4.10
+     Filepath Separator: \
+     Unit System: Metric
+     Missing Flow To Zero: No
+     Enable Flow Ratio: No
+     Compute Local Flow At Junctions: No
+     Unregulated Output Required: No
+
+     Enable Sediment Routing: No
+
+     Enable Quality Routing: No
+End:
+
+Subbasin: SUB1
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.12109493050655
+     Longitude Degrees: 92.74266022265854
+     Canvas X: 473650.9490171683
+     Canvas Y: 2556948.275710475
+     Area: 541.80
+     Downstream: J1
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 76.654
+     Canopy Storage Capacity: 2.54
+     Crop Coefficient: 0.1922
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 42.683
+     Surface Storage Capacity: 23.98
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 100
+     Initial Gw1 Storage Percent: 48.014
+     Initial Gw2 Storage Percent: 14.022
+     Soil Maximum Infiltration: 43.145
+     Soil Storage Capacity: 828.44
+     Soil Tension Capacity: 340
+     Soil Maximum Percolation: 32.971
+     Groundwater 1 Storage Capacity: 42.554
+     Groundwater 1 Routing Coefficient: 172.26
+     Groundwater 1 Maximum Percolation: 45.138
+     Groundwater 2 Storage Capacity: 12.642
+     Groundwater 2 Routing Coefficient: 1923.5
+     Groundwater 2 Maximum Percolation: 27.055
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.0166667
+     Storage Coefficient: 260.22
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0
+     GW-1 Number Reservoirs: 17
+     GW-1 Routing Coefficient: 0.009
+     GW-1 Initial Baseflow: 0.54681
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0
+     GW-2 Number Reservoirs: 1
+     GW-2 Routing Coefficient: 0.009
+     GW-2 Initial Baseflow: 1.1526
+End:
+
+Junction: J1
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:41:28
+     Canvas X: 467658.08154771914
+     Canvas Y: 2579414.7761711623
+     Downstream: R1
+End:
+
+Reach: R1
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 463006.42900803254
+     Canvas Y: 2601912.391284489
+     From Canvas X: 467658.08154771914
+     From Canvas Y: 2579414.7761711623
+     Downstream: J2
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 22.63
+     Muskingum x: 0.0065989
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: SUB2
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.43408484188308
+     Longitude Degrees: 92.66869779552279
+     Canvas X: 466157.05301625555
+     Canvas Y: 2591613.065731704
+     Area: 235.37
+     Downstream: J2
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 0.001
+     Canopy Storage Capacity: 2.54
+     Crop Coefficient: 0.20474
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 25.287
+     Surface Storage Capacity: 50.8
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 0.001
+     Initial Gw1 Storage Percent: 64.568
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 35.532
+     Soil Storage Capacity: 504.59
+     Soil Tension Capacity: 51.551
+     Soil Maximum Percolation: 22.125
+     Groundwater 1 Storage Capacity: 40.146
+     Groundwater 1 Routing Coefficient: 192.22
+     Groundwater 1 Maximum Percolation: 5.4431
+     Groundwater 2 Storage Capacity: 0.46629
+     Groundwater 2 Routing Coefficient: 1918.7
+     Groundwater 2 Maximum Percolation: 7.2064
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 125
+     Storage Coefficient: 178.36
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.74328
+     GW-1 Number Reservoirs: 43
+     GW-1 Routing Coefficient: 184.28
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.74328
+     GW-2 Number Reservoirs: 1
+     GW-2 Routing Coefficient: 730.53
+     GW-2 Initial Baseflow: 3.86
+End:
+
+Junction: J2
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:41:20
+     Canvas X: 463006.42900803254
+     Canvas Y: 2601912.391284489
+     Downstream: R2
+End:
+
+Reach: R2
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 464527.7241782445
+     Canvas Y: 2613292.849384729
+     From Canvas X: 463006.42900803254
+     From Canvas Y: 2601912.391284489
+     Downstream: J3
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 22.63
+     Muskingum x: 0.5
+     Muskingum Steps: 4
+     Channel Loss: None
+End:
+
+Subbasin: SUB3
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.575618368401617
+     Longitude Degrees: 92.64786085293541
+     Canvas X: 464066.922496803
+     Canvas Y: 2607287.045000808
+     Area: 172.55
+     Downstream: J3
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 43.762
+     Canopy Storage Capacity: 2.2351
+     Crop Coefficient: 0.7164
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 0.001
+     Surface Storage Capacity: 36.027
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 0.001
+     Initial Gw1 Storage Percent: 46.377
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 47.933
+     Soil Storage Capacity: 677.02
+     Soil Tension Capacity: 299.99
+     Soil Maximum Percolation: 11.791
+     Groundwater 1 Storage Capacity: 1.3176
+     Groundwater 1 Routing Coefficient: 65.714
+     Groundwater 1 Maximum Percolation: 0.01
+     Groundwater 2 Storage Capacity: 79.386
+     Groundwater 2 Routing Coefficient: 5.1615
+     Groundwater 2 Maximum Percolation: 7.9839
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.0166667
+     Storage Coefficient: 215.35
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0
+     GW-1 Number Reservoirs: 44
+     GW-1 Routing Coefficient: 0.009
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0
+     GW-2 Number Reservoirs: 50
+     GW-2 Routing Coefficient: 0.009
+     GW-2 Initial Baseflow: 1.809
+End:
+
+Junction: J3
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 06:56:02
+     Canvas X: 464527.7241782445
+     Canvas Y: 2613292.849384729
+     Downstream: R3
+End:
+
+Reach: R3
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 465756.46258495416
+     Canvas Y: 2622420.6204060004
+     From Canvas X: 464527.7241782445
+     From Canvas Y: 2613292.849384729
+     Downstream: J4
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 4.9318
+     Muskingum x: 0.37193
+     Muskingum Steps: 6
+     Channel Loss: None
+End:
+
+Subbasin: SUB4
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.670039328602563
+     Longitude Degrees: 92.65749322192299
+     Canvas X: 465074.8798023501
+     Canvas Y: 2617737.9927876876
+     Area: 94.005
+     Downstream: J4
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 78.474
+     Canopy Storage Capacity: 0.26376
+     Crop Coefficient: 0.01
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 57.114
+     Surface Storage Capacity: 0.001
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 1.1953
+     Initial Gw1 Storage Percent: 31.802
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 16.992
+     Soil Storage Capacity: 556.55
+     Soil Tension Capacity: 243.33
+     Soil Maximum Percolation: 12.03
+     Groundwater 1 Storage Capacity: 0.01
+     Groundwater 1 Routing Coefficient: 168.93
+     Groundwater 1 Maximum Percolation: 21.7
+     Groundwater 2 Storage Capacity: 25.557
+     Groundwater 2 Routing Coefficient: 623.89
+     Groundwater 2 Maximum Percolation: 27.5
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 21.227
+     Storage Coefficient: 53.809
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.1992
+     GW-1 Number Reservoirs: 18
+     GW-1 Routing Coefficient: 49.394
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.1992
+     GW-2 Number Reservoirs: 3
+     GW-2 Routing Coefficient: 195.79
+     GW-2 Initial Baseflow: 0.18312
+End:
+
+Junction: J4
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:37:24
+     Canvas X: 465756.46258495416
+     Canvas Y: 2622420.6204060004
+     Downstream: R4
+End:
+
+Reach: R4
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 462128.75871752563
+     Canvas Y: 2632543.08442318
+     From Canvas X: 465756.46258495416
+     From Canvas Y: 2622420.6204060004
+     Downstream: J5
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1.1653
+     Muskingum x: 0.10201
+     Muskingum Steps: 10
+     Channel Loss: None
+End:
+
+Subbasin: SUB5
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.751745024733335
+     Longitude Degrees: 92.61370775123332
+     Canvas X: 460634.5942843023
+     Canvas Y: 2626795.1512983963
+     Area: 176.23
+     Downstream: J5
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 56.114
+     Canopy Storage Capacity: 2.54
+     Crop Coefficient: 0.84046
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 70.628
+     Surface Storage Capacity: 24.128
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 37.909
+     Initial Gw1 Storage Percent: 47.382
+     Initial Gw2 Storage Percent: 29.49
+     Soil Maximum Infiltration: 27.381
+     Soil Storage Capacity: 291.68
+     Soil Tension Capacity: 100.01
+     Soil Maximum Percolation: 21.436
+     Groundwater 1 Storage Capacity: 0.01
+     Groundwater 1 Routing Coefficient: 112.52
+     Groundwater 1 Maximum Percolation: 30.146
+     Groundwater 2 Storage Capacity: 16.463
+     Groundwater 2 Routing Coefficient: 1093.6
+     Groundwater 2 Maximum Percolation: 13.994
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 5.4137
+     Storage Coefficient: 248.15
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.0136401
+     GW-1 Number Reservoirs: 50
+     GW-1 Routing Coefficient: 3.3905
+     GW-1 Initial Baseflow: 1.1501
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.0136401
+     GW-2 Number Reservoirs: 1
+     GW-2 Routing Coefficient: 13.415
+     GW-2 Initial Baseflow: 3.86
+End:
+
+Junction: J5
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:40:57
+     Canvas X: 462128.75871752563
+     Canvas Y: 2632543.08442318
+     Downstream: R5
+End:
+
+Reach: R5
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 453059.49904895434
+     Canvas Y: 2658463.613669484
+     From Canvas X: 462128.75871752563
+     From Canvas Y: 2632543.08442318
+     Downstream: J6
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.5
+     Muskingum Steps: 3
+     Channel Loss: None
+End:
+
+Subbasin: SUB7
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.587276170884433
+     Longitude Degrees: 92.54787784742925
+     Canvas X: 453868.3751868787
+     Canvas Y: 2608606.323919552
+     Area: 864.01
+     Downstream: J6
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 82.969
+     Canopy Storage Capacity: 2.1488
+     Crop Coefficient: 0.9
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 56.543
+     Surface Storage Capacity: 0.001
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 0.001
+     Initial Gw1 Storage Percent: 59.57
+     Initial Gw2 Storage Percent: 30.797
+     Soil Maximum Infiltration: 25.081
+     Soil Storage Capacity: 698.02
+     Soil Tension Capacity: 36.57
+     Soil Maximum Percolation: 10.071
+     Groundwater 1 Storage Capacity: 2.7686
+     Groundwater 1 Routing Coefficient: 122.58
+     Groundwater 1 Maximum Percolation: 35.123
+     Groundwater 2 Storage Capacity: 12.036
+     Groundwater 2 Routing Coefficient: 629.53
+     Groundwater 2 Maximum Percolation: 23.821
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 81.179
+     Storage Coefficient: 68.902
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.0622562
+     GW-1 Number Reservoirs: 1
+     GW-1 Routing Coefficient: 15.443
+     GW-1 Initial Baseflow: 1.201
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.0622562
+     GW-2 Number Reservoirs: 1
+     GW-2 Routing Coefficient: 61.196
+     GW-2 Initial Baseflow: 3.86
+End:
+
+Subbasin: SUB6
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.933054115125575
+     Longitude Degrees: 92.64419877716044
+     Canvas X: 463792.22205974086
+     Canvas Y: 2646860.3367813258
+     Area: 508.96
+     Downstream: J6
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 54.086
+     Canopy Storage Capacity: 2.1291
+     Crop Coefficient: 0.19939
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 80.717
+     Surface Storage Capacity: 19.856
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 13.485
+     Initial Gw1 Storage Percent: 69.576
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 49.997
+     Soil Storage Capacity: 283.38
+     Soil Tension Capacity: 215.64
+     Soil Maximum Percolation: 34.672
+     Groundwater 1 Storage Capacity: 48.336
+     Groundwater 1 Routing Coefficient: 163.73
+     Groundwater 1 Maximum Percolation: 28.281
+     Groundwater 2 Storage Capacity: 160.83
+     Groundwater 2 Routing Coefficient: 978.95
+     Groundwater 2 Maximum Percolation: 27.5
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 43.849
+     Storage Coefficient: 111.64
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.8868
+     GW-1 Number Reservoirs: 43
+     GW-1 Routing Coefficient: 219.86
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.8868
+     GW-2 Number Reservoirs: 32
+     GW-2 Routing Coefficient: 871.58
+     GW-2 Initial Baseflow: 0
+End:
+
+Junction: J6
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:40:48
+     Canvas X: 453059.49904895434
+     Canvas Y: 2658463.613669484
+     Downstream: R6
+End:
+
+Reach: R6
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 453732.3796050096
+     Canvas Y: 2670282.906914977
+     From Canvas X: 453059.49904895434
+     From Canvas Y: 2658463.613669484
+     Downstream: J7
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1
+     Muskingum x: 0.5
+     Muskingum Steps: 3
+     Channel Loss: None
+End:
+
+Subbasin: SUB8
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  24.132255360128667
+     Longitude Degrees: 92.5928720824659
+     Canvas X: 458632.777987775
+     Canvas Y: 2668929.2630191883
+     Area: 197.99
+     Downstream: J7
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 4.8348
+     Canopy Storage Capacity: 0.84453
+     Crop Coefficient: 0.01
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 11.178
+     Surface Storage Capacity: 50.8
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 47.72
+     Initial Gw1 Storage Percent: 9.9124
+     Initial Gw2 Storage Percent: 97.401
+     Soil Maximum Infiltration: 29.474
+     Soil Storage Capacity: 290.2
+     Soil Tension Capacity: 90.779
+     Soil Maximum Percolation: 38.005
+     Groundwater 1 Storage Capacity: 147.53
+     Groundwater 1 Routing Coefficient: 80.654
+     Groundwater 1 Maximum Percolation: 0.0641275
+     Groundwater 2 Storage Capacity: 95.009
+     Groundwater 2 Routing Coefficient: 707.81
+     Groundwater 2 Maximum Percolation: 2.2065
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 92.592
+     Storage Coefficient: 0.02
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.27007
+     GW-1 Number Reservoirs: 20
+     GW-1 Routing Coefficient: 66.963
+     GW-1 Initial Baseflow: 3.7986
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.27007
+     GW-2 Number Reservoirs: 5
+     GW-2 Routing Coefficient: 265.45
+     GW-2 Initial Baseflow: 0.73593
+End:
+
+Junction: J7
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:40:22
+     Canvas X: 453732.3796050096
+     Canvas Y: 2670282.906914977
+     Downstream: R7
+End:
+
+Reach: R7
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 452708.43093275157
+     Canvas Y: 2674290.9345749584
+     From Canvas X: 453732.3796050096
+     From Canvas Y: 2670282.906914977
+     Downstream: J11
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 1.5725
+     Muskingum x: 0.3503
+     Muskingum Steps: 3
+     Channel Loss: None
+End:
+
+Subbasin: SUB10
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  23.91522678394391
+     Longitude Degrees: 92.43756822796173
+     Canvas X: 442756.42802667315
+     Canvas Y: 2644954.914730865
+     Area: 712.59
+     Downstream: J10
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 63.332
+     Canopy Storage Capacity: 2.2217
+     Crop Coefficient: 0.9
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 15.066
+     Surface Storage Capacity: 12.369
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 0.001
+     Initial Gw1 Storage Percent: 0.001
+     Initial Gw2 Storage Percent: 71.099
+     Soil Maximum Infiltration: 34.479
+     Soil Storage Capacity: 868.4
+     Soil Tension Capacity: 26.286
+     Soil Maximum Percolation: 1.8795
+     Groundwater 1 Storage Capacity: 32.049
+     Groundwater 1 Routing Coefficient: 70.86
+     Groundwater 1 Maximum Percolation: 9.8849
+     Groundwater 2 Storage Capacity: 2.5269
+     Groundwater 2 Routing Coefficient: 1609.6
+     Groundwater 2 Maximum Percolation: 21.711
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.0166667
+     Storage Coefficient: 260.22
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.11751
+     GW-1 Number Reservoirs: 8
+     GW-1 Routing Coefficient: 29.141
+     GW-1 Initial Baseflow: 2.7728
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.11751
+     GW-2 Number Reservoirs: 1
+     GW-2 Routing Coefficient: 115.5
+     GW-2 Initial Baseflow: 0.34372
+End:
+
+Junction: J10
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:39:56
+     Canvas X: 449987.65303218015
+     Canvas Y: 2673003.6848155484
+     Downstream: R10
+End:
+
+Reach: R10
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 452708.43093275157
+     Canvas Y: 2674290.9345749584
+     From Canvas X: 449987.65303218015
+     From Canvas Y: 2673003.6848155484
+     Downstream: J11
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 11.187
+     Muskingum x: 0.0666907
+     Muskingum Steps: 1
+     Channel Loss: None
+End:
+
+Subbasin: SUB9
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  24.160119427026892
+     Longitude Degrees: 92.53408555340644
+     Canvas X: 452669.8095281797
+     Canvas Y: 2672032.9364886614
+     Area: 6.6571
+     Downstream: J11
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 28.754
+     Canopy Storage Capacity: 0.74689
+     Crop Coefficient: 0.35107
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 84.166
+     Surface Storage Capacity: 2.906
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 46.946
+     Initial Gw1 Storage Percent: 29.89
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 0.01
+     Soil Storage Capacity: 68.093
+     Soil Tension Capacity: 68.093
+     Soil Maximum Percolation: 17.833
+     Groundwater 1 Storage Capacity: 0.01
+     Groundwater 1 Routing Coefficient: 32.113
+     Groundwater 1 Maximum Percolation: 14.132
+     Groundwater 2 Storage Capacity: 93.761
+     Groundwater 2 Routing Coefficient: 1253.8
+     Groundwater 2 Maximum Percolation: 15.059
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.0166667
+     Storage Coefficient: 30.482
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.3631
+     GW-1 Number Reservoirs: 16
+     GW-1 Routing Coefficient: 90.026
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.3631
+     GW-2 Number Reservoirs: 7
+     GW-2 Routing Coefficient: 356.88
+     GW-2 Initial Baseflow: 0.4263
+End:
+
+Subbasin: SUB11
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  24.17416222160902
+     Longitude Degrees: 92.5167238248363
+     Canvas X: 450911.44987366523
+     Canvas Y: 2673593.719858198
+     Area: 4.9454
+     Downstream: J11
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 84.17
+     Canopy Storage Capacity: 1.4778
+     Crop Coefficient: 0.0656455
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 6.2668
+     Surface Storage Capacity: 50.8
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 91.142
+     Initial Gw1 Storage Percent: 16.48
+     Initial Gw2 Storage Percent: 36.266
+     Soil Maximum Infiltration: 0.85636
+     Soil Storage Capacity: 391.17
+     Soil Tension Capacity: 340
+     Soil Maximum Percolation: 40
+     Groundwater 1 Storage Capacity: 145.46
+     Groundwater 1 Routing Coefficient: 214.5
+     Groundwater 1 Maximum Percolation: 6.3291
+     Groundwater 2 Storage Capacity: 77.448
+     Groundwater 2 Routing Coefficient: 0.01
+     Groundwater 2 Maximum Percolation: 9.822
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 44.5
+     Storage Coefficient: 0.02
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.50282
+     GW-1 Number Reservoirs: 2
+     GW-1 Routing Coefficient: 124.66
+     GW-1 Initial Baseflow: 1.4144
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.50282
+     GW-2 Number Reservoirs: 21
+     GW-2 Routing Coefficient: 494.2
+     GW-2 Initial Baseflow: 0
+End:
+
+Junction: J11
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:39:09
+     Canvas X: 452708.43093275157
+     Canvas Y: 2674290.9345749584
+     Downstream: R11
+End:
+
+Reach: R11
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:48:48
+     Canvas X: 452445.12984559947
+     Canvas Y: 2674934.5594546637
+     From Canvas X: 452708.43093275157
+     From Canvas Y: 2674290.9345749584
+     Downstream: Outlet
+
+     Route: Muskingum
+     Initial Variable: Combined Inflow
+     Muskingum K: 6.4675
+     Muskingum x: 0.5
+     Muskingum Steps: 2
+     Channel Loss: None
+End:
+
+Subbasin: SUB12
+     Last Modified Date: 23 December 2025
+     Last Modified Time: 05:49:59
+     Latitude Degrees:  24.18240967888712
+     Longitude Degrees: 92.54779893798346
+     Canvas X: 454070.88709957415
+     Canvas Y: 2674496.315841691
+     Area: 3.9791
+     Downstream: Outlet
+
+     Discretization: None
+     File: Tlawng_SMA_FN.sqlite
+
+     Canopy: Simple
+     Allow Simultaneous Precip Et: Yes
+     Plant Uptake Method: Simple
+     Initial Canopy Storage Percent: 96.049
+     Canopy Storage Capacity: 1.417
+     Crop Coefficient: 0.17515
+     End Canopy:
+
+     Surface: Simple
+     Initial Surface Storage Percent: 78.754
+     Surface Storage Capacity: 21.936
+     Surface Albedo: 0.20
+     End Surface:
+
+     LossRate: Soil Moisture Account
+     Percent Impervious Area: 0
+     Initial Soil Storage Percent: 100
+     Initial Gw1 Storage Percent: 0.001
+     Initial Gw2 Storage Percent: 0.001
+     Soil Maximum Infiltration: 21.545
+     Soil Storage Capacity: 605.24
+     Soil Tension Capacity: 340
+     Soil Maximum Percolation: 4.3512
+     Groundwater 1 Storage Capacity: 148.42
+     Groundwater 1 Routing Coefficient: 0.01
+     Groundwater 1 Maximum Percolation: 17.761
+     Groundwater 2 Storage Capacity: 119.27
+     Groundwater 2 Routing Coefficient: 306.75
+     Groundwater 2 Maximum Percolation: 27.5
+
+     Transform: Clark
+     Clark Method: Specified
+     Time of Concentration: 0.0166667
+     Storage Coefficient: 139.54
+     Time Area Method: Default
+
+     Baseflow: Linear Reservoir
+     Groundwater Layer: 1
+     GW-1 Baseflow Fraction: 0.78296
+     GW-1 Number Reservoirs: 1
+     GW-1 Routing Coefficient: 194.11
+     GW-1 Initial Baseflow: 0
+     Groundwater Layer: 2
+     GW-2 Baseflow Fraction: 0.78296
+     GW-2 Number Reservoirs: 25
+     GW-2 Routing Coefficient: 769.53
+     GW-2 Initial Baseflow: 0.23812
+End:
+
+Sink: Outlet
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:38:33
+     Canvas X: 452445.12984559947
+     Canvas Y: 2674934.5594546637
+End:
+
+Basin Layer Properties:
+     Element Layer:
+          Name: Icons
+          Layer shown: Yes
+     End Layer:
+     Element Layer:
+          Name: Reaches
+          Layer shown: Yes
+     End Layer:
+     2D Connection Layer:
+          Layer shown: No
+     End Layer:
+     Element Layer:
+          Name: Subbasins
+          Layer shown: Yes
+     End Layer:
+     Discretization Layer:
+          Layer shown: No
+     End Layer:
+     Breakpoint Layer:
+          Layer shown: Yes
+     End Layer:
+     Base Layer:
+          Name: Identified Streams
+          Layer shown: No
+          Properties Filename: maps\streams1949013072022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Accumulation
+          Layer shown: No
+          Properties Filename: maps\flowaccum4847013072022.xml
+     End Layer:
+     Base Layer:
+          Name: Flow Direction
+          Layer shown: No
+          Properties Filename: maps\flowdir4847013072022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Locations
+          Layer shown: No
+          Properties Filename: maps\sinklocs1632013072022.xml
+     End Layer:
+     Base Layer:
+          Name: Sink Fill
+          Layer shown: No
+          Properties Filename: maps\sinkfill1532013072022.xml
+     End Layer:
+     Base Layer:
+          Name: Terrain
+          Layer shown: No
+          Properties Filename: maps\elevation2831013072022.xml
+     End Layer:
+End:
+
+Basin Spatial Properties:
+     Coordinate System: PROJCS["UTM_ZONE_46N_Wgs84",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",93],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]
+     Terrain: Terrain 1
+     Threshold: 60
+     Break Point: Bairabi_CWC
+          X Coordinate: 452445.9820588554
+          Y Coordinate: 2674943.886351576
+     End Break Point:
+     Break Point: Bridge on Aizawl-Lengpui Roa
+          X Coordinate: 462127.7082970793
+          Y Coordinate: 2632517.356763831
+     End Break Point:
+     Break Point: Bridge on Aizawl-Reiek Road
+          X Coordinate: 465786.4415087071
+          Y Coordinate: 2622389.2654573387
+     End Break Point:
+     Break Point: Bridge on Aibawk-Darlung Roa
+          X Coordinate: 463007.75565402606
+          Y Coordinate: 2601892.405597504
+     End Break Point:
+     Break Point: Bridge on Thenzawl-Buarpui R
+          X Coordinate: 467921.53944369516
+          Y Coordinate: 2577423.166223169
+     End Break Point:
+     Break Point: Lungleng_CWC
+          X Coordinate: 464555.39356997464
+          Y Coordinate: 2613263.805513946
+     End Break Point:
+     Break Point: Tut_CWC
+          X Coordinate: 451216.6895626153
+          Y Coordinate: 2628893.3413633215
+     End Break Point:
+     reach_prefix: R
+     junction_insert: true
+     junction_prefix: J
+     subbasin_prefix: SUB
+End:
+
+Basin Schematic Properties:
+     Last View N: 2674934.5594546637
+     Last View S: 2550227.8851317377
+     Last View W: 437311.3981001987
+     Last View E: 474227.7858359893
+     Maximum View N: 2674934.5594546637
+     Maximum View S: 2556948.275710475
+     Maximum View W: 442756.42802667315
+     Maximum View E: 473650.9490171683
+     Extent Method: Elements
+     Buffer: 0
+     Draw Icons: Yes
+     Draw Icon Labels: Name
+     Draw Map Objects: No
+     Draw Gridlines: No
+     Draw Flow Direction: No
+     Draw HillShade Layer: Yes
+     Draw Elevation Layer: Yes
+     Elevation Layer Color Palette: Gray Scale
+     Ignore Elevation Color Ramp Scale: No
+     Use Interpolated Color Ramp for Elevation Layer: Yes
+     Color Ramp Opacity Level for Elevation Layer: 33.0
+     Fix Element Locations: No
+     Fix Hydrologic Order: No
+End:
