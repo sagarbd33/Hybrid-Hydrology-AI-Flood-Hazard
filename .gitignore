@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Restricted data (Central Water Commission discharge and stage) - never publish
+**/Data/restricted/
+**/Bairabi_Discharge_CWC.csv
+3. Hybrid HEC-HMS–GRU/Results/Predictions_*.csv
+
+# HEC-HMS program (free from USACE; download separately)
+**/HEC-HMS-4.10/
+
+# HEC-HMS run outputs and generated scripts
+2. HEC-HMS/HMS_Projects/*/Cal.*
+2. HEC-HMS/HMS_Projects/*/Val.*
+2. HEC-HMS/HMS_Projects/*/compute_*.py
+2. HEC-HMS/HMS_Projects/*/*.log
+2. HEC-HMS/HMS_Projects/*/*.out
+2. HEC-HMS/HMS_Projects/*/results/
+
+# Test and re-run outputs
+**/quick_test/output/
+**/Models_retrained/
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
