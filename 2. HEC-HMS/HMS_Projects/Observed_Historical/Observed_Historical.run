@@ -1,0 +1,151 @@
+Run: Cal
+     Default Description: Yes
+     Log File: Cal.log
+     DSS File: Cal.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:50:48
+     Basin: Tlawng_SMA_FN
+     Precip: Met 1
+     Control: Calibration
+     Time-Series Output: Save All
+     Time Series Results Manager Start:
+          Element Start: SUB7
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB7
+          Element Start: SUB6
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB6
+          Element Start: SUB5
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB5
+          Element Start: SUB4
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB4
+          Element Start: SUB3
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB3
+          Element Start: SUB2
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB2
+          Element Start: SUB10
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB10
+          Element Start: SUB1
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB1
+          Element Start: SUB12
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB12
+          Element Start: SUB11
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB11
+          Element Start: SUB9
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB9
+          Element Start: SUB8
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB8
+     Time Series Results Manager End:
+End:
+
+Run: Val
+     Default Description: Yes
+     Log File: Val.log
+     DSS File: Val.dss
+     Is Save Spatial Results: No
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 10:08:10
+     Basin: Tlawng_SMA_FN
+     Precip: Met 1
+     Control: Validation
+     Save State Type: None
+     Time-Series Output: Save All
+     Time Series Results Manager Start:
+          Element Start: SUB7
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB7
+          Element Start: SUB6
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB6
+          Element Start: SUB5
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB5
+          Element Start: SUB4
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB4
+          Element Start: SUB3
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB3
+          Element Start: SUB2
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB2
+          Element Start: SUB10
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB10
+          Element Start: SUB1
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB1
+          Element Start: SUB12
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB12
+          Element Start: SUB11
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB11
+          Element Start: SUB9
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB9
+          Element Start: SUB8
+               DAILY_AVERAGE_TEMPERATURE:Daily Average Temperature,1 Day
+               DAILY_MINIMUM_TEMPERATURE:Daily Minimum Temperature,1 Day
+               DAILY_MAXIMUM_TEMPERATURE:Daily Maximum Temperature,1 Day
+          Element End: SUB8
+     Time Series Results Manager End:
+End:
+

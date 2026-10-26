@@ -1,0 +1,432 @@
+Meteorology: Met 1
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:49:18
+     Version: 4.10
+     Unit System: Metric
+     Set Missing Data to Default: No
+     Precipitation Method: Weighted Gages
+     Air Temperature Method: Gage
+     Atmospheric Pressure Method: None
+     Dew Point Method: None
+     Wind Speed Method: None
+     Shortwave Radiation Method: Hargreaves
+     Longwave Radiation Method: None
+     Snowmelt Method: None
+     Evapotranspiration Method: Hargreaves
+     Use Basin Model: Tlawng_SMA_FN
+End:
+
+Gage: Aizawl
+     Type: Recording
+End:
+
+Gage: Haulawng
+     Type: Recording
+End:
+
+Gage: Hnahthial
+     Type: Recording
+End:
+
+Gage: Kawrtethawveng
+     Type: Recording
+End:
+
+Gage: Kolasib
+     Type: Recording
+End:
+
+Gage: Lunglei
+     Type: Recording
+End:
+
+Gage: Mamit
+     Type: Recording
+End:
+
+Gage: Neihbawi
+     Type: Recording
+End:
+
+Gage: Serchhip
+     Type: Recording
+End:
+
+Gage: Sialsuk
+     Type: Recording
+End:
+
+Gage: Thingdawl
+     Type: Recording
+End:
+
+Gage: Zawlnuam
+     Type: Recording
+End:
+
+Precip Method Parameters: Weighted Gages
+     Last Modified Date: 27 January 2023
+     Last Modified Time: 19:46:22
+     Use HEC1 Weighting Scheme: Yes
+     Use Indexing: No
+     Allow Depth Override: No
+End:
+
+Air Temperature Method Parameters: Gage
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:49:10
+End:
+
+Shortwave Radiation Method Parameters: Hargreaves
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:49:04
+     Adjustment Coefficient: 0.1700
+     Time Zone Meridian: 92.5862
+End:
+
+Evapotranspiration Method Parameters: Hargreaves
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 05:49:18
+End:
+
+Subbasin: SUB7
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:04
+     Air Temperature Gage Name: SUB7
+     Gage: Aizawl
+     Volume Weight: 0.051223
+     Temporal Distribution Weight: 1
+     Gage: Haulawng
+     Volume Weight: 0.023266
+     Temporal Distribution Weight: 1
+     Gage: Kawrtethawveng
+     Volume Weight: 0.022809
+     Temporal Distribution Weight: 1
+     Gage: Mamit
+     Volume Weight: 0.289513
+     Temporal Distribution Weight: 1
+     Gage: Sialsuk
+     Volume Weight: 0.358047
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.255142
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB7
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB6
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:48:21
+     Air Temperature Gage Name: SUB6
+     Gage: Aizawl
+     Volume Weight: 0.068120
+     Temporal Distribution Weight: 1
+     Gage: Kolasib
+     Volume Weight: 0.116936
+     Temporal Distribution Weight: 1
+     Gage: Mamit
+     Volume Weight: 0.329243
+     Temporal Distribution Weight: 1
+     Gage: Neihbawi
+     Volume Weight: 0.485701
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB6
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB5
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:04
+     Air Temperature Gage Name: SUB5
+     Gage: Aizawl
+     Volume Weight: 0.862585
+     Temporal Distribution Weight: 1
+     Gage: Mamit
+     Volume Weight: 0.118896
+     Temporal Distribution Weight: 1
+     Gage: Neihbawi
+     Volume Weight: 0.011394
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.007125
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB5
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB4
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:04
+     Air Temperature Gage Name: SUB4
+     Gage: Aizawl
+     Volume Weight: 0.356835
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.643165
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB4
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB3
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:04
+     Air Temperature Gage Name: SUB3
+     Gage: Sialsuk
+     Volume Weight: 0.954171
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.045829
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB3
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB2
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:04
+     Air Temperature Gage Name: SUB2
+     Gage: Serchhip
+     Volume Weight: 0.096736
+     Temporal Distribution Weight: 1
+     Gage: Sialsuk
+     Volume Weight: 0.841223
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.062041
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB2
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB1
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:48:50
+     Air Temperature Gage Name: SUB1
+     Gage: Haulawng
+     Volume Weight: 0.498007
+     Temporal Distribution Weight: 1
+     Gage: Hnahthial
+     Volume Weight: 0.009369
+     Temporal Distribution Weight: 1
+     Gage: Lunglei
+     Volume Weight: 0.314120
+     Temporal Distribution Weight: 1
+     Gage: Serchhip
+     Volume Weight: 0.009031
+     Temporal Distribution Weight: 1
+     Gage: Sialsuk
+     Volume Weight: 0.169472
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB1
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB10
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:08
+     Air Temperature Gage Name: SUB10
+     Gage: Kawrtethawveng
+     Volume Weight: 0.442199
+     Temporal Distribution Weight: 1
+     Gage: Kolasib
+     Volume Weight: 0.001636
+     Temporal Distribution Weight: 1
+     Gage: Mamit
+     Volume Weight: 0.298548
+     Temporal Distribution Weight: 1
+     Gage: Thingdawl
+     Volume Weight: 0.07129
+     Temporal Distribution Weight: 1
+     Gage: Zawlnuam
+     Volume Weight: 0.250489
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB10
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB12
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:47:24
+     Air Temperature Gage Name: SUB12
+     Gage: Kolasib
+     Volume Weight: 1
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB12
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB11
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:08
+     Air Temperature Gage Name: SUB11
+     Gage: Kolasib
+     Volume Weight: 0.763678
+     Temporal Distribution Weight: 1
+     Gage: Zawlnuam
+     Volume Weight: 0.236149
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB11
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB9
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:47:24
+     Air Temperature Gage Name: SUB9
+     Gage: Kolasib
+     Volume Weight: 1
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB9
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:
+
+Subbasin: SUB8
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49:08
+     Air Temperature Gage Name: SUB8
+     Gage: Kolasib
+     Volume Weight: 0.831698
+     Temporal Distribution Weight: 1
+     Gage: Mamit
+     Volume Weight: 0.143632
+     Temporal Distribution Weight: 1
+     Gage: Zawlnuam
+     Volume Weight: 0.024670
+     Temporal Distribution Weight: 1
+
+     Begin Et: Hargreaves
+     Hargreaves Coefficient: 0.0135
+     End Et:
+
+     Begin Air Temperature: Gage
+     Lapse Rate Method: None
+     End Lapse Rate Method:
+     Temperature Gage Name: SUB8
+     End Air Temperature: 
+
+     Begin Shortwave Radiation: Hargreaves
+     End Shortwave Radiation: 
+End:

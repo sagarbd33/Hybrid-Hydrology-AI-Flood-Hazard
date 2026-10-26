@@ -1,0 +1,4 @@
+numpy>=1.24
+pandas>=2.0
+pydsstools>=3.0      # HEC-DSS read/write (Windows and Linux wheels on PyPI)
+geopandas>=0.14      # optional, only for 06_export_gis.py

@@ -1,0 +1,7 @@
+Period,Variable,File,Mean_reproduced,Mean_used_in_paper,Mean_abs_diff,Max_abs_diff
+Historical,pr,PR_Stationwise_Historical_BiasCorrected.csv,7.6506,7.1536,1.0347,2.5853
+Historical,tas,TASAVG_Stationwise_Historical_BiasCorrected.csv,23.4747,22.3506,1.1242,2.0153
+ssp245,pr,PR_Stationwise_ssp245_KACE-1-0-G_BiasCorrected.csv,7.7922,7.2956,1.0348,2.5853
+ssp245,tas,TASAVG_Stationwise_ssp245_First_BiasCorrected.csv,23.6075,22.4832,1.1244,2.0153
+ssp585,pr,PR_Stationwise_ssp585_KACE-1-0-G_BiasCorrected.csv,7.9261,7.4283,1.0358,2.5853
+ssp585,tas,TASAVG_Stationwise_ssp585_First_BiasCorrected.csv,23.7893,22.6648,1.1245,2.0153

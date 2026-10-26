@@ -1,0 +1,33 @@
+Hydrological process,Parameter,Min,Max,N_elements
+Canopy interception,Initial canopy storage (%),0.001,96.049,12
+Canopy interception,Maximum canopy storage (mm),0.26376,2.54,12
+Canopy interception,Crop coefficient,0.01,0.9,12
+Surface depression,Initial surface storage (%),0.001,84.166,12
+Surface depression,Maximum surface storage (mm),0.001,50.8,12
+SMA,Impervious area (%),0.0,0.0,12
+SMA,Initial soil storage (%),0.001,100.0,12
+SMA,Initial GW 1 storage (%),0.001,69.576,12
+SMA,Initial GW 2 storage (%),0.001,97.401,12
+SMA,Maximum infiltration (mm/h),0.01,49.997,12
+SMA,Soil storage (mm),68.093,868.4,12
+SMA,Tension storage (mm),26.286,340.0,12
+SMA,Soil percolation (mm/h),1.8795,40.0,12
+SMA,GW 1 storage (mm),0.01,148.42,12
+SMA,GW 1 percolation (mm/h),0.01,45.138,12
+SMA,GW 1 storage coefficient (h),0.01,214.5,12
+SMA,GW 2 storage (mm),0.46629,160.83,12
+SMA,GW 2 percolation (mm/h),2.2065,27.5,12
+SMA,GW 2 storage coefficient (h),0.01,1923.5,12
+Clark unit hydrograph,Time of concentration (h),0.0166667,125.0,12
+Clark unit hydrograph,Storage coefficient (h),0.02,260.22,12
+Linear reservoir,GW 1 initial baseflow (m3/s),0.0,3.7986,12
+Linear reservoir,Baseflow GW 1 storage coefficient (h),0.009,219.86,12
+Linear reservoir,GW 1 reservoirs,1.0,50.0,12
+Linear reservoir,GW 1 baseflow fraction,0.0,0.8868,12
+Linear reservoir,GW 2 initial baseflow (m3/s),0.0,3.86,12
+Linear reservoir,Baseflow GW 2 storage coefficient (h),0.009,871.58,12
+Linear reservoir,GW 2 reservoirs,1.0,50.0,12
+Linear reservoir,GW 2 baseflow fraction,0.0,0.8868,12
+Muskingum routing,K (h),1.0,22.63,9
+Muskingum routing,X,0.0065989,0.5,9
+Muskingum routing,Number of subreaches,1.0,10.0,9

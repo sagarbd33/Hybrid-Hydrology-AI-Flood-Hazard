@@ -1,0 +1,32 @@
+Project: Observed_CalVal
+     Description: 
+     Version: 4.10
+     Filepath Separator: \
+     DSS File Name: Observed_CalVal.dss
+     Time Zone ID: Asia/Calcutta
+End:
+
+Precipitation: Met 1
+     Filename: Met_1.met
+     Description: 
+     Last Modified Date: 22 June 2023
+     Last Modified Time: 07:49
+End:
+
+Basin: Tlawng_SMA_FN
+     Filename: Tlawng_SMA_FN.basin
+     Description: 
+     Last Modified Date: 30 December 2025
+     Last Modified Time: 12:51
+End:
+
+Control: Calibration
+     FileName: Calibration.control
+     Description: 
+End:
+
+Control: Validation
+     FileName: Validation.control
+     Description: 
+End:
+
