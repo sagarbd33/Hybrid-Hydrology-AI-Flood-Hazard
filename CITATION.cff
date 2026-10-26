@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "Hybrid Hydrology-AI Framework for Probabilistic Flood Hazard Assessment under CMIP6 Scenarios (code and data)"
+authors:
+  - family-names: Debbarma
+    given-names: Sagar
+    affiliation: "North Eastern Regional Institute of Science and Technology (NERIST)"
+  - family-names: Bandyopadhyay
+    given-names: Arnab
+    affiliation: "North Eastern Regional Institute of Science and Technology (NERIST)"
+  - family-names: Bhadra
+    given-names: Aditi
+    affiliation: "North Eastern Regional Institute of Science and Technology (NERIST)"
+license: MIT
+version: 1.0.0
+preferred-citation:
+  type: article
+  title: "A Hybrid Hydrology-AI Framework with Terrain-Based Inundation Modeling for Probabilistic Flood Hazard-Exposure Assessment under CMIP6 Scenarios"
+  authors:
+    - family-names: Debbarma
+      given-names: Sagar
+    - family-names: Bandyopadhyay
+      given-names: Arnab
+    - family-names: Bhadra
+      given-names: Aditi
+  journal: "Computers & Geosciences"
+  notes: "Submitted"

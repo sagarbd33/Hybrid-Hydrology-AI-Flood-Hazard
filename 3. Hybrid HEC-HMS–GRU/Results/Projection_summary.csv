@@ -1,0 +1,8 @@
+Scenario,Period,Mean_annual_max_Q_m3s,Mean_Q_m3s,Outside_training_range_precip,Outside_training_range_tmin,Outside_training_range_tmax,Outside_training_range_srad,Outside_training_range_simdischarge
+Historical,1986-2014,103.595,41.658,0.0,0.0,0.0,0.279,0.0
+Ssp245,2021-2047,106.062,42.181,0.0,0.0,0.0,0.273,0.0
+Ssp245,2048-2073,109.037,43.286,0.0,0.0,0.0,0.273,0.0
+Ssp245,2074-2099,107.448,42.569,0.0,0.0,0.0,0.273,0.0
+Ssp585,2021-2047,108.795,42.738,0.0,0.065,0.0,0.271,0.0
+Ssp585,2048-2073,111.867,43.701,0.0,0.065,0.0,0.271,0.0
+Ssp585,2074-2099,114.83,44.095,0.0,0.065,0.0,0.271,0.0

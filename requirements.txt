@@ -1,0 +1,11 @@
+# All modules (each module folder also has its own requirements.txt)
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.6      # Module 3 scalers saved with scikit-learn 1.6.1
+xgboost==3.4.1         # Module 1 saved models; Modules 4 tested with 3.4.1
+joblib>=1.3
+tensorflow>=2.18       # Module 3 (Keras 3 model)
+pydsstools>=3.0        # Module 2 (HEC-DSS read/write)
+matplotlib>=3.7
+geopandas>=0.14        # optional, Module 2 step 08 only

@@ -1,0 +1,4 @@
+Scenario,Forcing,simdischarge,Start,End,precip_mean_rebuilt,precip_mean_paper,precip_max_abs_diff,tmin_mean_rebuilt,tmin_mean_paper,tmin_max_abs_diff,tmax_mean_rebuilt,tmax_mean_paper,tmax_max_abs_diff,srad_mean_rebuilt,srad_mean_paper,srad_max_abs_diff,simdischarge_mean_rebuilt,simdischarge_mean_paper,simdischarge_max_abs_diff
+Historical,kept from Data/Inputs,kept from Data/Inputs,1984-01-02,2014-12-31,8.0964,8.0964,0.0,18.0949,18.0949,0.0,27.1212,27.1212,0.0,5.9084,5.9084,0.0,41.4164,41.4164,0.0
+Ssp245,kept from Data/Inputs,kept from Data/Inputs,2015-01-02,2099-12-31,8.1379,8.1379,0.0,18.5441,18.5441,0.0,27.1842,27.1842,0.0,5.9064,5.9064,0.0,42.2406,42.2406,0.0
+Ssp585,kept from Data/Inputs,kept from Data/Inputs,2015-01-02,2099-12-31,8.1519,8.1519,0.0,18.9867,18.9867,0.0,27.2652,27.2652,0.0,5.906,5.906,0.0,42.8708,42.8708,0.0
