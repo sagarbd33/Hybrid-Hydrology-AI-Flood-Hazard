@@ -1,0 +1,112 @@
+Node: DistributionFitting
+Name: Ssp585
+LastModified:1775955904856
+DataSet:Ssp585
+DSSFileName:DistributionFitting/Ssp585/Ssp585.dss
+ParameterType:STAGE
+DataTabPlotType:CDF
+DisplayOriginalData:true
+AnalysisTabPlotType:CDF
+DistributionsFilter:DISPLAYALLDISTRIBUTIONS
+SelectedFittingMethods:(MLE)
+SelectedFittingMethod:MaximumLikelihood
+SelectedFittingTest:KOLMOGOROVSMIRNOV
+GoodnessOfFitTestValue:0.219
+AcceptedDistributionParametersAndValues:Loctn=16.998108, Scale=1.964253
+AcceptedDistributionName:GUMBEL_MLE
+ResultsTabPlotType:CDF
+EquivalentRecordLengthValue:84
+UseUserEnteredValues:false
+UpperLimitValue:0.05
+LowerLimitValue:0.95
+ZAlphaValue:97.5
+ToleranceValue:1.0
+MinimumIterationsValue:100
+MaximumIterationsValue:1000000
+ComputeUntilConvergence:false
+UseSeed:false
+SeedValue:12345
+ExpectedProbUseLog:false
+ExpectedProbCompOrdinatesUseEnteredValues:false
+ExpectedProbUserEnteredValues:[]
+ConfidenceIntervalType:UNADJUSTED
+UseUserParameterLabel:false
+UseUserUnitsLabel:false
+UserParameterLabel:Stage
+UserUnitsLabel:m
+XAxisPlotType:0
+PlottingPositionA:0.3
+PlottingPositionB:0.3
+FloodSeasonPlotOptionIndex:0
+FloodSeasonStartDate:Thu Jan 01 00:00:00 IST 1970
+FloodSeasonEndDate:Thu Dec 31 00:00:00 IST 1970
+UseFloodSeasonStartDate:false
+UseFloodSeasonEndDate:false
+BinDate:1 January 1970
+BinDate:3 March 1970
+BinDate:3 May 1970
+BinDate:2 July 1970
+BinDate:1 September 1970
+BinDate:1 November 1970
+BinDate:31 December 1970
+Ordinate:0.1
+Ordinate:1.0
+Ordinate:10.0
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+Ordinate:-Infinity
+NonExceedanceOrdinate:99.8
+NonExceedanceOrdinate:99.5
+NonExceedanceOrdinate:99.0
+NonExceedanceOrdinate:98.0
+NonExceedanceOrdinate:95.0
+NonExceedanceOrdinate:90.0
+NonExceedanceOrdinate:80.0
+NonExceedanceOrdinate:50.0
+NonExceedanceOrdinate:20.0
+NonExceedanceOrdinate:10.0
+NonExceedanceOrdinate:5.0
+NonExceedanceOrdinate:1.0
+UseUserFrequencyOrdinates:true
+PlottingType:MEDIAN
+MedianCurvesSelected:GUMBEL_MLE,
+ConfidenceLimitsSelected:GUMBEL_MLE
+ExpProbSelected:GUMBEL_MLE
+DataFilterOptionsStartDate:-2147483647
+DataFilterOptionsEndDate:-2147483647
+DataFilterOptionsMinThreshold:false
+DataFilterOptionsMinThresholdValue:0.0
+DataFilterOptionsMaxThreshold:false
+DataFilterOptionsMaxThresholdValue:0.0
+DataFilterOptionsSeasonal:false
+DataFilterOptionsSeasonalStartDate:-2147483647
+DataFilterOptionsSeasonalEndDate:-2147483647
+DataFilterOptionsFilterToAnnualMaxes:false
+DataFilterOptionsFilterToAnnualMaxesYearStart:-2147483647
+DataFilterOptionsFilterToPartialDuration:false
+DataFilterOptionsFilterToPartialDurationMinFlowThreshold:0.0
+DataFilterOptionsFilterToPartialDurationNumRecsBetweenPeaks:0
+DataFilterOptionsDefinedThreshold:false
+DataFilterOptionsDefinedThresholdValue:0.0
+DataFilterOptionsDifferentialOfPeak:false
+DataFilterOptionsDifferentialOfPeakValue:0.0
+DataFilterOptionsPercentOfPeak:false
+DataFilterOptionsPercentOfPeakValue:0.0
+DataFilterOptionsPeaksMinimumThreshold:0.0
+DataFilterOptionsPeaksDurationBetween:0.0
+DataFilterOptionsFilterStartingPoolUse:false
+DataFilterOptionsRateOfRiseValue:0.0
+DataFilterOptionsTypicalHighPoolDurationValue:0
+DataFilterOptionsFilterByTimeWindow:false
+DurationFilterPropertiesStart
+VERSION:V1
+AverageDataOverDuration:false
+DurationInDays:1
+DurationFilterPropertiesEnd
+DataFilterOptionsEnd

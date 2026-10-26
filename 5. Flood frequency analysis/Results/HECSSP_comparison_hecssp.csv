@@ -1,0 +1,19 @@
+Check,Quantity,HEC-SSP,Python,Difference
+A formulas,Gumbel location,16.9636,16.963,-0.0006
+A formulas,Gumbel scale,2.4654,2.467,0.0016
+A formulas,GEV shape,-0.41,-0.41,0.0
+A formulas,Gumbel stage T=10 yr,22.51,22.5117,0.0017
+A formulas,Gumbel stage T=100 yr,28.3,28.3049,0.0049
+A formulas,Gumbel stage T=1000 yr,33.99,33.9929,0.0029
+B data,N,85.0,85.0,0.0
+B data,Sample min,14.995,14.9951,0.0001
+B data,Sample max,34.305,34.3046,-0.0004
+B data,L-mean,18.387,18.3867,-0.0003
+B data,L-skew,0.462,0.4622,0.0002
+B data,Gumbel location,16.9636,16.9636,-0.0
+B data,Gumbel scale,2.4654,2.4654,-0.0
+B data,K-S Gumbel,0.22,0.2199,-0.0001
+B data,K-S GEV,0.132,0.1318,-0.0002
+B data,K-S Log10-Normal,0.255,0.2552,0.0002
+B data,K-S Log-Logistic,0.266,0.2664,0.0004
+B data,K-S Gamma,0.26,0.2605,0.0005

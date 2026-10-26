@@ -1,0 +1,16 @@
+Data:
+     Name: Ssp585
+     DssPath:///Stage//1YEAR//
+     DataType:TIME_SERIES
+     StudyDSSPath: ///Stage//1YEAR//
+     Description: Manual Data Entry
+End
+
+Data:
+     Name: Ssp245
+     DssPath:///Stage//1YEAR//
+     DataType:TIME_SERIES
+     StudyDSSPath: ///Stage//1YEAR//
+     Description: Manual Data Entry 
+End
+

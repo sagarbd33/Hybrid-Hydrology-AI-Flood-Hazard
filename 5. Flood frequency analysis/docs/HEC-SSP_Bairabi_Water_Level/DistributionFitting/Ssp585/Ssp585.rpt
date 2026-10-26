@@ -1,0 +1,122 @@
+-----------------------------
+Distribution Fitting Analysis
+-----------------------------
+
+
+--- Input Data ---
+
+Analysis Name: Ssp585
+Description: 
+
+Data Set Name: Ssp585
+Input DSS File Name: C:/Users/AE-lab/Downloads/Objective 4/Data/Future Projections/ArealWise/DataGRU/Ranking/GRU Simulation/Merged Discharge-Stage Relationship/HEC-SSP/Bairabi_Water_Level/DistributionFitting/Ssp585/Ssp585.dss
+DSS Pathname: ///Stage//1YEAR//
+
+Project Path: C:\Users\AE-lab\Downloads\Objective 4\Data\Future Projections\ArealWise\DataGRU\Ranking\GRU Simulation\Merged Discharge-Stage Relationship\HEC-SSP\Bairabi_Water_Level
+Result File Name: Ssp585.xml
+Report File Name: C:\Users\AE-lab\Downloads\Objective 4\Data\Future Projections\ArealWise\DataGRU\Ranking\GRU Simulation\Merged Discharge-Stage Relationship\HEC-SSP\Bairabi_Water_Level\DistributionFitting\Ssp585\Ssp585.rpt
+Output DSS File Name: C:/Users/AE-lab/Downloads/Objective 4/Data/Future Projections/ArealWise/DataGRU/Ranking/GRU Simulation/Merged Discharge-Stage Relationship/HEC-SSP/Bairabi_Water_Level/DistributionFitting/Ssp585/Ssp585.dss
+
+Parameter Type: Stage
+
+Data Filters: None
+
+Number of Original Data Values: 85
+
+Number of Filtered Data Value: 85
+
+
+--- End of Input Data ---
+
+
+--- Analysis ---
+
+-------------------------------------------------------------
+|      Statistic   |   Original Data   |   Processed Data   |
+|------------------|-------------------|--------------------|
+|    Sample Size   |              85   |               85   |
+|            Min   |          14.995   |           14.995   |
+|            Max   |          34.305   |           34.305   |
+|         Median   |          16.780   |           16.780   |
+|           Mode   |          14.995   |           14.995   |
+|------------------|-------------------|--------------------|
+
+
+Product Moments
+-------------------------------------------------------------
+|      Statistic   |   Original Data   |   Processed Data   |
+|------------------|-------------------|--------------------|
+|           Mean   |          18.387   |           18.387   |
+|   Standard Dev   |           3.625   |            3.625   |
+|           Skew   |           2.102   |            2.102   |
+|       Kurtosis   |           4.788   |            4.788   |
+|------------------|-------------------|--------------------|
+
+
+L-Moment Ratios
+-------------------------------------------------------------
+|      Statistic   |   Original Data   |   Processed Data   |
+|------------------|-------------------|--------------------|
+|         L-Mean   |          18.387   |           18.387   |
+|           L-CV   |           0.093   |            0.093   |
+|         L-Skew   |           0.462   |            0.462   |
+|     L-Kurtosis   |           0.253   |            0.253   |
+|------------------|-------------------|--------------------|
+
+
+Fitting Method: Standard Product Moments
+-----------------------------------------------------------------------------------------------------------------------------------------------
+|             Distribution             |                                  Parameter                                  |   Kolmogorov-Smirnov   |
+|                                      |                                                                             |     (Test Statistic)   |
+|--------------------------------------|-----------------------------------------------------------------------------|------------------------|
+|             Gumbel (MLE)             |                         Loctn=16.998 ,Scale=1.964                           |         0.219          |
+|        Log-Pearson III (MLE)         |                  MeanLog=1.258 ,StDvLog=0.068 ,Skew=1.636                   |         0.157          |
+|      Generalized Logistic (MLE)      |                      Loctn=NaN ,Scale=NaN ,Shape=NaN                        |          NaN           |
+|           Ln-Normal (MLE)            |                         MeanLn=2.896 ,StDvLn=0.171                          |         0.243          |
+|         Shifted Gamma (MLE)          |                   Shape=0.728 ,Scale=4.658 ,Shift=14.995                    |         0.196          |
+|             Normal (MLE)             |                          Mean=18.387 ,StDv=3.625                            |         0.261          |
+|            Logistic (MLE)            |                         Loctn=17.672 ,Scale=1.716                           |         0.192          |
+|       Generalized Pareto (MLE)       |                  Loctn=14.995 ,Scale=3.157 ,Shape=-0.070                    |         0.140          |
+|      Shifted Exponential (MLE)       |                         Scale=18.387 ,Shift=0.000                           |         0.558          |
+|   Generalized Extreme Value (MLE)    |                  Loctn=16.576 ,Scale=1.329 ,Shape=-0.502                    |         0.117          |
+|        4 Parameter Beta (MLE)        |           Shape0=0.648 ,Shape1=2.422 ,Left=11.246 ,Right=38.494             |         0.486          |
+|          Log10-Normal (MLE)          |                        MeanLog=1.258 ,StDvLog=0.074                         |         0.243          |
+|          Exponential (MLE)           |                                Scale=18.387                                 |         0.558          |
+|          Log-Logistic (MLE)          |                         Scale=17.541 ,Shape=11.573                          |         0.177          |
+|            Uniform (MLE)             |                         Left=14.995 ,Right=34.305                           |         0.548          |
+|           Triangular (MLE)           |                   Left=14.995 ,Peak=14.996 ,Right=34.618                    |         0.424          |
+|              Beta (MLE)              |                           Shape0=NaN ,Shape1=NaN                            |          NaN           |
+|             Gamma (MLE)              |                         Shape=31.798 ,Scale=0.578                           |         0.251          |
+|          Pearson III (MLE)           |                    Mean=18.387 ,StDv=3.975 ,Skew=2.344                      |         0.196          |
+|--------------------------------------|-----------------------------------------------------------------------------|------------------------|
+
+Plotting Position Type: MEDIAN
+
+--- End Of Analysis ---
+
+
+--- Results ---
+
+Selected Distribution: None                                                       
+
+-----------------------------------------------------------------------
+|                              Parameter                              |
+|---------------------------------------------------------------------|
+|                                                                     |
+|---------------------------------------------------------------------|
+
+------------------------
+|  Kolmogorov-Smirnov  |
+|    (Test Statistic)  |
+|----------------------|
+|                      |
+|----------------------|
+
+----------------------------------------------------------------------------
+|    Median        Expected    |   Percent   |      Confidence Limits      |
+|     Curve       Probability  |   Chance    |          0.05          0.95 |
+|           Stage, m           | Exceedance  |          Stage, m           |
+|------------------------------|-------------|-----------------------------|
+|------------------------------|-------------|-----------------------------|
+
+--- End Of Results ---
